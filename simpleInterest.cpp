@@ -11,6 +11,10 @@ t = given as some day, divide t / 360 days
 
 plug in everything, round to two decimal places
 
+convert time:
+    - if input years, just plug in the num
+    - if input months = month / 12
+    - if input days = days / 360
 */
  const int DAYS = 360;
  const int MONTHS = 12;
